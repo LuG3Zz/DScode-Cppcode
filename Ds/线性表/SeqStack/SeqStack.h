@@ -4,7 +4,7 @@
 #include <assert.h>
 #include <malloc.h>
 
-#define ElemType int
+#define ElemType char
 
 #define STACK_INIT_SIZE 8
 #define STACK_INC_SIZE 3
@@ -26,6 +26,7 @@ int Length(SeqStack *s);
 void Clear(SeqStack *s);
 void Destroy(SeqStack *s);
 void Show(SeqStack *s);
+void Print(SeqStack *s);
 
 
 

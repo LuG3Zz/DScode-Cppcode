@@ -79,3 +79,12 @@ void Show(SeqStack*s){
      printf("\n");
      
 }
+
+void Print(SeqStack *s){
+     for (int i = 0; i <s->top; i++)
+     {
+        printf("%c",s->base[i]);
+     }
+     printf("\n");
+
+}
